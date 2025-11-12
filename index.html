@@ -5,14 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pelden Nidup Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 </head>
 <body>
 
-  <nav>
-    <div class="logo"></div>
-    <img src="pels.png" alt="logo" style="top: 0; margin-left: -50px; position: absolute; height: 58px; width: 50px;">
-    <ul>
-      <li><a href="#about">About</a></li>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="pels.png" alt="logo" />
+    </div>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <ul id="nav-list">
+      <li><a href="#about" class="active">About</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -29,12 +37,12 @@
       </p>
       <a href="#contact" class="btn">Contact Me</a>
     </div>
-    <img src="pelden.jpg" alt="Pelden Nidup" width="90%" height="60%">
+    <img src="pelden.jpg" alt="Pelden Nidup" width="490px" height="290px">
   </section>
 
   
   <section id="about" class="about">
-    <img src="kel.jpg" alt="About Pelden Nidup">
+    <img src="kel.jpg" alt="About Pelden Nidup" width="490" height="200">
     <div class="about-text">
       <h2>About Me</h2>
       <p>
@@ -102,11 +110,11 @@ only one year.
   <section id="skills" class="skills">
     <h2>Top Skills</h2>
     <div class="icons">
-      <img src="html.png" alt="HTML">
-      <img src="css.png" alt="CSS">
-      <img src="js.png" alt="JavaScript">
-      <img src="react.png" alt="React">
-      <img src="figma.png" alt="Figma">
+      <img src="97.png" alt="HTML">
+      <img src="919826.png" alt="CSS">
+      <img src="we.webp" alt="JavaScript">
+      <img src="ss.webp" alt="React">
+      <img src="jk.png" alt="Figma">
     </div>
    
   </section>
@@ -119,13 +127,14 @@ only one year.
       <textarea rows="5" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
-     <img src="pelden.jpg" alt="Pelden Nidup" >
+     <img src="pelden.jpg" alt="Pelden Nidup" width="490px" height="290px">
   </section>
 
  
   <footer>
     &copy; 2025 Pelden Nidup. All rights reserved.
   </footer>
+  <script src="script.js"></script>
 
 </body>
 </html>
